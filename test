@@ -1,3 +1,4 @@
+ps.close();
 con=DriverManager.getConnection(url, userName, password);
 String password = props.getProperty("db.password");
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
