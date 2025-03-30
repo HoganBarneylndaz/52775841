@@ -1,3 +1,4 @@
+BufferedWriter out = null;
 ps.close();
 con=DriverManager.getConnection(url, userName, password);
 String password = props.getProperty("db.password");
