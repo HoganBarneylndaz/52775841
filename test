@@ -1,3 +1,4 @@
+OracleJdbcTest test = new OracleJdbcTest();
 BufferedWriter out = null;
 ps.close();
 con=DriverManager.getConnection(url, userName, password);
