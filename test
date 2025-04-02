@@ -1,3 +1,4 @@
+String url = props.getProperty("db.url");
 OracleJdbcTest test = new OracleJdbcTest();
 BufferedWriter out = null;
 ps.close();
